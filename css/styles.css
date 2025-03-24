@@ -23,6 +23,12 @@
 /* Basic styles */
 a{
     text-decoration: none;
+    transition: color 0.2s ease-out;
+}
+
+a:hover{
+    color: var(--hover);
+    text-shadow: 10px 0 10px var(--hover);
 }
 
 ul{
@@ -88,7 +94,7 @@ h1 {
     color: #E5E7EB;
 }
 
-.header-btn:hover {
+.header-btn:hover{
     border: 2px solid var(--hover);
 }
 
