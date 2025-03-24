@@ -6,7 +6,6 @@
     --button-color: #3882F6;
     --info-quote: #1F2937;
     --quote-back: #E5E7EB;
-    --hover: #bb6625;
     font-family: var(--font);
     box-sizing: border-box;
     /* 
@@ -27,8 +26,8 @@ a{
 }
 
 a:hover{
-    color: var(--hover);
-    text-shadow: 10px 0 10px var(--hover);
+    color: var(--button-color);
+    text-shadow: 6px 0 6px var(--button-color);
 }
 
 ul{
@@ -93,12 +92,14 @@ h1 {
     width: 100px;
     border-radius: 8px;
     background-color: #3882F6;
-    border: 2px collapse var(--hover);
+    border: 2px collapse var(--button-color);
     color: #E5E7EB;
 }
 
 .header-btn:hover{
-    border: 2px solid var(--hover);
+    border: 2px solid var(--button-color);
+    background-color: var(--hero-sec);
+    color: var(--hero-footer);
 }
 
 .header-content-container {
