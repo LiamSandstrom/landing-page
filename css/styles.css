@@ -206,3 +206,50 @@ h1 {
 .author {
     justify-self: flex-end;
 }
+
+
+/* Signup */
+.signup {
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    color: var(--hero-sec);
+    background-color: var(--button-color);
+    height: 150px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    border-radius: 8px;
+}
+
+.signup-container h4{
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+
+.signup-container p {
+    font-weight: lighter;
+    margin: 0;
+}
+
+.signup-container button {
+    width: 120px;
+    height: 35px;
+    background: none;
+    color: var(--hero-sec);
+    border: 2px solid var(--hero-sec);
+    border-radius: 8px;
+}
+
+.signup-container button:hover {
+    background-color: #E5E7EB;
+    color: #3882F6;
+}
