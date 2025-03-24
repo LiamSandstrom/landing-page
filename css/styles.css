@@ -254,3 +254,13 @@ h1 {
     background-color: #E5E7EB;
     color: #3882F6;
 }
+
+/* Footer */ 
+
+.footer{
+    background-color: var(--hero-footer);
+    height: 90px;
+    color: var(--hero-sec);
+    justify-content: center;
+    align-items: center;
+}
