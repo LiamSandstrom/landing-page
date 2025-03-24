@@ -44,6 +44,7 @@ body{
 .section {
     display: flex;
     height: 500px;
+    min-width: 1000px;
 }
 /* Header */
 
@@ -178,5 +179,30 @@ h1 {
 /* Quote */
 
 .quote {
+    height: 400px;
     background-color: var(--quote-back);
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p, h3 {
+    margin: 0;
+}
+
+.quote-content p {
+    font-size: 32px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-content h3 {
+    font-size: 24px;
+}
+
+.quote-content {
+    width: 750px;
+}
+
+.author {
+    justify-self: flex-end;
 }
