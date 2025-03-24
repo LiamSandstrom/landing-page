@@ -1,0 +1,22 @@
+:root {
+    --font: Roboto, sans-serif;
+    --hero-footer: #1F2937;
+    --hero-main: #F9FAF8;
+    --hero-sec: #E5E7EB;
+    --button-color: #3882F6;
+    --info-quote: #1F2937;
+    --quote-back: #E5E7EB;
+
+    /* 
+    Hero size: 48px
+    Hero weight: 900
+    Hero secondary size: 18px
+    Header logo text: 24px
+    Information header size: 36px
+    Information weight: 900
+    Quote size: 36px light italic
+    */
+}
+
+a {
+}
