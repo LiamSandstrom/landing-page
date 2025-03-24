@@ -41,12 +41,14 @@ body{
     margin: 0;
 }
 
+.section {
+    display: flex;
+    height: 500px;
+}
 /* Header */
 
 .header {
     background-color: #1F2937;
-    height: 450px;
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -90,7 +92,7 @@ h1 {
     width: 100px;
     border-radius: 8px;
     background-color: #3882F6;
-    border: 3px collapse var(--hover);
+    border: 2px collapse var(--hover);
     color: #E5E7EB;
 }
 
@@ -125,4 +127,56 @@ h1 {
     justify-content: center;
     align-items: center;
     background-color: #717275;
+}
+
+
+
+/* Information */
+.information {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-header {
+    margin: 0;
+    margin-bottom: 32px;
+    font-size: 30px;
+}
+
+.info-content {
+    display: flex;
+    gap: 64px;
+}
+
+.info-item {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 3px solid var(--button-color);
+    border-radius: 8px;
+    transition: scale 0.1s;
+}
+
+.box:hover {
+    scale: 1.1;
+    background-color: var(--button-color);
+}
+
+.box:active {
+    scale: 1;
+}
+
+/* Quote */
+
+.quote {
+    background-color: var(--quote-back);
 }
