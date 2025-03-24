@@ -6,7 +6,9 @@
     --button-color: #3882F6;
     --info-quote: #1F2937;
     --quote-back: #E5E7EB;
-
+    --hover: #bb6625;
+    font-family: var(--font);
+    box-sizing: border-box;
     /* 
     Hero size: 48px
     Hero weight: 900
@@ -16,4 +18,105 @@
     Information weight: 900
     Quote size: 36px light italic
     */
+}
+
+/* Basic styles */
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+
+/* Header */
+
+.header {
+    background-color: #1F2937;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.navbar h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.navbar > ul {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.header h2, h1{
+    color: var(--hero-main);
+    font-weight: 900;
+    margin-top: 0;
+}
+
+.header p, a {
+    color:#E5E7EB;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.header-btn{
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    border: 3px collapse var(--hover);
+    color: #E5E7EB;
+}
+
+.header-btn:hover {
+    border: 2px solid var(--hover);
+}
+
+.header-content-container {
+    display: flex;
+    margin: auto 0;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    width: 440px;
+    margin: auto 0;
+}
+
+.header-con {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.placeholder-img {
+    display: flex;
+    height: 240px;
+    width: 480px;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #717275;
 }
